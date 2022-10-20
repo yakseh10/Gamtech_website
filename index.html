@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
@@ -11,17 +15,25 @@
 
 <body>
     <div class="container max-w-full">
-        <div class="navbar">
-            <img alt="image" src="./LogoMakr-14e0Yl.png" class="logo">
 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">More</a></li>
+        <div class="flex flex-cols">
+            <div class="navbar">
+                <img alt="image" src="./LogoMakr-14e0Yl.png" class="logo">
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">More</a></li>
+                    <button type="button" class="btn btn-outline-info w-auto ">Login</button>
+                    <button type="button" class="btn btn-outline-info w-auto">Sign Up</button>
+                </ul>
+
+            </div>
+            <ul class="flex flex-cols nav navbar-nav navbar-right">
+
             </ul>
-
         </div>
         <div class="paragraph">
             <h3 class="animate__animated animate__fadeInLeft">Gambia Students Association at KNUST</h3>
@@ -32,7 +44,7 @@
 
     </div>
     <div class="">
-        <h2>About Us</h2>
+        <h2 class="text-center  ">About Us</h2>
     </div>
 </body>
 

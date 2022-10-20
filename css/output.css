@@ -591,6 +591,18 @@ video {
   }
 }
 
+.flex {
+  display: flex;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .max-w-full {
   max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
